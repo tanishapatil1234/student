@@ -2,13 +2,55 @@
 
   <div id="header">
     <nav>
-      <ul>
-        <li class="fork"><a href="{{site.baseurl}}/">Home</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/compsci">CompSci</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/blogs">Blogs</a></li>
-        <li class="title"><a href="{{site.baseurl}}/help">Help</a></li>
-        <li class="title"><a href="{{ site.github.repository_url }}#readme">View On GitHub</a></li>
-      </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Purple Navbar</title>
+    <style>
+        /* CSS for the navbar */
+        .navbar {
+            background-color: #800080; /* Deep purple color */
+            overflow: hidden;
+        }
+
+        /* Style the navbar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: #ffffff; /* White text color */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the color of navbar links on hover */
+        .navbar a:hover {
+            background-color: #4B0082; /* Darker purple color on hover */
+        }
+
+        /* Style for the right-aligned text */
+        .navbar-right {
+            float: right;
+            padding: 14px 16px;
+            color: #ffffff; /* White text color */
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <!-- Add the right-aligned text here -->
+    <div class="navbar-right">Tanisha's Lab Notebook CSA</div>
+</div>
+
+<!-- The rest of your website content goes here -->
+
+</body>
+
     </nav>
   </div><!-- end header -->
 </header>
