@@ -10,7 +10,38 @@ Setup course data
 
 {% assign course = site.data[page.course] %} <!-- Load YML data -->
 {% assign units = page.units | split: ',' %}
-<h1>{{page.title}}</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    
+    <!-- Add CSS for the table styling -->
+    <style>
+        /* CSS for the table */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #800080;
+            color: white;
+        }
+
+        /* Add more CSS styles as needed */
+    </style>
+</head>
+<body>
+
+<h1>{{ page.title }}</h1>
 <br>
 
 {%comment%} 
@@ -110,7 +141,7 @@ Load all posts with site
   {% assign units = units | concat:plans | concat:deli | concat:hacks | concat:deli | concat:tangibles  %}
 
   {%comment%} 
-  <!-- This Loop is maximum iterationss, since elements are pairs it will decrement a extra times at the end -->
+  <!-- This Loop is maximum iterations, since elements are pairs it will decrement extra times at the end -->
   {%endcomment%}
   <tr>
   <td> {{ index }} </td> 
@@ -132,4 +163,7 @@ Load all posts with site
   {% endfor %}
 
 </table>
-{% endfor %}
+{% endfor %} 
+
+</body>
+</html>
