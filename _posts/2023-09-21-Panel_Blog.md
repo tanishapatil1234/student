@@ -21,7 +21,7 @@ The Girls in Computer Science club at Del Norte High School recently hosted an e
 
   
 
-<br></br>
+<br>
 *  _<span style="text-decoration:underline;">Anthony Vo</span>:_ An intern at Viasat and a Computer Science and Quantitative Economics student at the University of California, Irvine.
 
 * _<span style="text-decoration:underline;">Colin Szeto</span>:_ An intern at Northrop Grumman who pursued a Bachelor of Science in Mechanical Engineering at the University of California, San Diego.
