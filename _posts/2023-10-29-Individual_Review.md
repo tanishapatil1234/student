@@ -7,6 +7,12 @@ description: Recap of key events this trimester and all that I have learned.
 type: plans
 courses: { compsci: {week: 2} }
 ---
+# CB MCQ Reflection (in progress) 
+- [Link](https://tanishapatil1234.github.io/student/2023/10/29/CB_Final.html)
+
+# End of Tri Reflection
+- [Link](https://tanishapatil1234.github.io/student/2023/10/29/EndofTriReflection.html)
+
 # Issue Recap and Highlight Meaningful Commits 
 
 ## Backend - Developed Functional Spring backend 
