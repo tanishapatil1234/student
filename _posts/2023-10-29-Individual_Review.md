@@ -13,6 +13,20 @@ courses: { compsci: {week: 2} }
 # End of Tri Reflection
 - [Link](https://tanishapatil1234.github.io/student/2023/10/29/EndofTriReflection.html)
 
+# Student Grading
+| Unit  | My Score |
+|:---:|---|
+| 1 | 0.9 |
+| 2 | 0.95 |
+| 3 | 1 |
+| 4 | 0.9 |
+| 5 | 0.95 |
+| 6 | X |
+| 7 | 0.9 |
+| 8 | 0.9 |
+
+
+
 # Issue Recap and Highlight Meaningful Commits 
 
 ## Backend - Developed Functional Spring backend 
