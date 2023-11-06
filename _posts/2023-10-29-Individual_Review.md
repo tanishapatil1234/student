@@ -14,16 +14,8 @@ courses: { compsci: {week: 2} }
 - [Link](https://tanishapatil1234.github.io/student/2023/10/29/EndofTriReflection.html)
 
 # Student Grading
-| Unit  | My Score |
-|:---:|---|
-| 1 | 0.9 |
-| 2 | 0.95 |
-| 3 | 1 |
-| 4 | 0.9 |
-| 5 | 0.95 |
-| 6 | X |
-| 7 | 0.9 |
-| 8 | 0.9 |
+
+<img width="142" alt="image" src="https://github.com/vivianknee/PocketTherapist/assets/111611921/efd7e426-8572-45fc-8fc8-5da1c24aefa5">
 
 
 
